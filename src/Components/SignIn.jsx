@@ -43,7 +43,7 @@ function SignIn() {
   };
 
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-900">
+    <div className="h-screen flex items-center justify-center bg-black">
       <div className="w-96 p-6 bg-gray-800 rounded-lg shadow-lg">
         <h2 className="text-white text-2xl mb-6 text-center">Sign In</h2>
         {error && <p className="text-red-500 mb-4">{error}</p>}
