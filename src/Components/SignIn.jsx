@@ -31,7 +31,7 @@ function SignIn() {
       if (user) {
         console.log('Successfully Signed In!');
         setError('');
-        navigate('/'); 
+        navigate('/Home'); 
       } else {
         setError('Invalid email or password.');
       }
