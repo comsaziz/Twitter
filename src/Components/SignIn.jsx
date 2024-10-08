@@ -74,7 +74,7 @@ function SignIn() {
           Don't have an account?{' '}
           <span 
             className="text-blue-400 cursor-pointer" 
-            onClick={() => navigate('/signup')}
+            onClick={() => navigate('/')}
           >
             Sign Up
           </span>

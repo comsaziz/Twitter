@@ -27,7 +27,7 @@ function RightHome() {
         </div> 
         
         <div
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/Home')}
          className='flex mb-6 items-center text-white'>
         
         <p className='mr-3 xl:block hidden'>الرئيسية</p>

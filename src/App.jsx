@@ -14,7 +14,7 @@ function App() {
       <div className="h-full w-full bg-[#000000]">
         <Routes>
           <Route
-            path="/"
+            path="/Home"
             element={
               <div className="flex justify-center bg-[#000000]">
                 <LeftHome />
@@ -34,7 +34,7 @@ function App() {
             }
           />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/" element={<SignUp />} />
         </Routes>
       </div>
     </Router>
